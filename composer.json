@@ -1,0 +1,30 @@
+{
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "name": "ahmedmahfouz/paymob",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "description": "handle payment integration with paymob",
+    "autoload": {
+        "psr-4": {
+            "Ahmedmahfouz\\Paymob\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmedmahfouz",
+            "email": "ahmedmahfouz2060@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmedmahfouz\\Paymob\\PaymobServiceProvider"
+            ]
+        }
+    }
+}
+
+
