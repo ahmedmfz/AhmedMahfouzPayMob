@@ -47,6 +47,13 @@ OR run command:
 ```bash
  php artisan vendor:publish --tag=paymob-config
 ```
+
+## view for testing  ?
+# /paymob-check-view
+
+```bash
+ php artisan vendor:publish --tag=paymob-view
+```
 ## How to use ?
 
 ### example for pay
