@@ -19,7 +19,7 @@ class PaymobServiceProvider extends ServiceProvider
         ], 'paymob-config');
 
         $this->publishes([
-            __DIR__.'/../resources/views/test_paymob_view' => resource_path('views/vendor/test_paymob_view'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/test_paymob_view'),
         ], 'paymob-view');
     }
 
