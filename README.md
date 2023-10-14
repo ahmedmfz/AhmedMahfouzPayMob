@@ -16,13 +16,13 @@ I'm a Software Engineer...
 Install with composer
 
 ```bash
-  composer require kayan/paymob
+  composer require ahmedmahfouz/paymob
 ```
 
 Add service Provider in config/app.php
 
 ```bash
-\Kayan\Paymob\PaymobServiceProvider::class,
+\Ahmedmahfouz\Paymob\PaymobServiceProvider::class,
 ```
 
     
