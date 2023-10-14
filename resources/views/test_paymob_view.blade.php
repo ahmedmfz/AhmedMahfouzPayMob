@@ -23,7 +23,7 @@
     </div>
 
     <div class="container mt-5">
-        <form action="{{ route('pay') }}" method="POST">
+        <form action="#" method="POST">
             @csrf
 
             <div class="row mt-5 justify-content-center">
