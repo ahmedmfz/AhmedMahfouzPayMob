@@ -60,7 +60,7 @@ OR run command:
 
 ```bash
         $amout   = 50 ;
-        $billing = ['first_name' => 'ahmed' , 'last_name'=> 'mohamed' , 'email'=> 'admin@admin.com' , 'phone_number' => '01019208066' ];
+        $billing = ['first_name' => 'ahmed' , 'last_name'=> 'mohamed' , 'email'=> 'admin@admin.com' , 'phone_number' => '01000000000' ];
         $orderId = rand(1,3000);
         $service = $request->service;
         
